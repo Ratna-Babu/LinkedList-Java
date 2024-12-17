@@ -1,4 +1,4 @@
-# Linked List in Java
+# Linked List in Data Structures
 
 ## What is a Linked List?
 A **Linked List** is a linear data structure in which elements, called **nodes**, are connected using pointers. Each node contains two parts:
@@ -51,3 +51,16 @@ public class LinkedListDemo
         System.out.println("Final List: " + list);
     }
 }
+```
+## Output
+```
+Linked List: [10, 20, 30]
+
+Removing 20 from the list:
+Updated List: [10, 30]
+
+Removing 40 from the list:
+40 not found in the list.
+Final List: [10, 30]
+
+```
